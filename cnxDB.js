@@ -24,7 +24,7 @@ MongoClient.connect(
 
     console.log(`Nombre de documents : ${count}`);
 
-    console.log("coucou");
+    console.log("coucou2");
 
     db.collection("test")
       .find({})
