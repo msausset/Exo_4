@@ -23,6 +23,8 @@ MongoClient.connect(
 
     console.log(`Nombre de documents : ${count}`);
 
+    console.log("coucou");
+
     db.collection("test")
       .find({})
       .toArray(function (err, docs) {
