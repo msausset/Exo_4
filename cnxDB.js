@@ -17,6 +17,7 @@ MongoClient.connect(
     if (err) throw err;
     var db = client.db("test");
     var db = client.db("test");
+
     var users = db.collection("test");
 
     const count = await users.countDocuments({});
